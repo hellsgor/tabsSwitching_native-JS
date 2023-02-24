@@ -1,0 +1,35 @@
+body {
+  margin: 40px auto;
+  padding: 0;
+  width: 1400px;
+}
+
+.tabs-inner {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  background-color: black;
+  padding: 4px 0;
+}
+
+.tab {
+  margin: 0 auto;
+  padding: 8px 20px;
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+
+.tab-content {
+  background-color: lightgrey;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
